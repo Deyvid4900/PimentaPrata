@@ -42,6 +42,11 @@
 
 /* novidades */
 
+
+#novidades-bg{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
 .novidades{
     width: 210px;
     margin: auto;
@@ -57,35 +62,65 @@
 .productsNovidades{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 23px;
     margin-top: 32px;
 }
 
 .firstProduct{
     width: 200px;
-    height: 270px;
+    height: 268px;
     border: 3px solid #630001;
     border-radius: 4px;
-    margin-left: 80px;
 }
 
 .secondProduct, .thirdProduct, .fourthProduct, .fifthProduct, .sixthProduct{
-    width: 180px;
-    height: 250px;
-    background-color: #ccc;
+    width: 200px;
+    height: 270px;
+    border: 3px solid #630001;
     border-radius: 4px;
 }
 
 .imgFirstProduct img{
-    width: 180px;
-    border-radius: 4px;
+    width: 194px;
+    border-radius: 2px 1px 0 0;
     margin: auto;
     position: relative;
-    top: 8px;
-    left: 7px;
+    top: 0px;
+    left: 0px;
 }
 
- .imgSecondProduct, .imgThirdProduct, .imgFourthProduct, .imgFifthProduct, .imgSixthProduct{
+.imgSecondProduct img{
+    width: 194px;
+    border-radius: 2px 1px 0 0;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.imgThirdProduct img{
+    width: 194px;
+    border-radius: 2px 1px 0 0;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.imgFourthProduct img{
+    width: 194px;
+    border-radius: 2px 1px 0 0;
+    margin: auto;
+}
+
+.imgFifthProduct img{
+    width: 194px;
+    border-radius: 2px 1px 0 0;
+    margin: auto;
+}
+
+.imgSixthProduct{
     width: 120px;
     border-radius: 4px;
     margin: auto;
@@ -99,19 +134,23 @@
     margin-left: 4px;
 }
 
+
+
+
 /* descontos joias */
 
 .descontoJoias-Bg{
     margin-top: 60px;
+    margin-bottom: 80px;
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 100px;
 }
 
-.descontosJoiasImg{
+.descontosJoiasImg img{
     width: 760px;
-    height: 400px;
-    background-color: #ccc;
+    /* height: 400px; */
+    
 }
 
 .textDescontoJoias {
@@ -229,26 +268,53 @@
 }
 
 .textproduct1 p{
-    margin-bottom: 16px;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 700;
-    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    font-family: "Pan Display Regular", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.textproduct2 p{
+    margin-bottom: 20px;
+    margin-top: -15px;
+    font-family: "Pan Display Regular", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     margin-left: 10px;
 }
 
 .linkTeste{
     display: flex;
     justify-content: center;
+
 }
 .textproduct1 a{
     color: white;
     background-color: #740204;
-    padding: 8px 40px;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 1px;
+    margin-top: 10px;
+    padding: 5px 35px;
 }
+
+
 
 .textproduct1 a:hover{
     color: black;
     font-weight: 700;
     border: 2px solid #740204;
+    border-radius: 2px;
     background-color: transparent;
+}
+
+.btn-MaisBaixo > a{
+    margin-top: 30.5px;
+}
+
+.linkTeste2{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
 }
