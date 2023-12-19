@@ -1,0 +1,254 @@
+.listAcessorios{
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    gap: 32px;
+    margin-left: 80px;
+    margin-top: 28px;
+    list-style: none;
+}
+
+.listAcessorios li{
+    cursor: pointer;
+}
+
+.joias::after, .acessorios::after, .colar::after, .relogios::after, .Tornozeleira::after, .pulseiras::after, .presentes::after{
+    content: "";
+    display: inline-block;
+    background-image: url(/assets/icon/Arrow\ 3.svg);
+    width: 16px;
+    height: 9px;
+    position: relative;
+    left: 4px;
+}
+
+/* banner */
+
+.BannerMargin{
+    margin-bottom: 60px;
+}
+
+.bannerImg{
+    display: flex;
+    justify-content: center;
+}
+.bannerImg img{
+    width: 1200px;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+
+/* novidades */
+
+.novidades{
+    width: 210px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    border: 4px solid #740204;
+    border-radius: 4px;
+}
+
+
+/* produtos */
+
+.productsNovidades{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-top: 32px;
+}
+
+.firstProduct{
+    width: 200px;
+    height: 270px;
+    border: 3px solid #630001;
+    border-radius: 4px;
+    margin-left: 80px;
+}
+
+.secondProduct, .thirdProduct, .fourthProduct, .fifthProduct, .sixthProduct{
+    width: 180px;
+    height: 250px;
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.imgFirstProduct img{
+    width: 180px;
+    border-radius: 4px;
+    margin: auto;
+    position: relative;
+    top: 8px;
+    left: 7px;
+}
+
+ .imgSecondProduct, .imgThirdProduct, .imgFourthProduct, .imgFifthProduct, .imgSixthProduct{
+    width: 120px;
+    border-radius: 4px;
+    margin: auto;
+    position: relative;
+    top: 8px;
+}
+
+
+.textPrdouct{
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+/* descontos joias */
+
+.descontoJoias-Bg{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.descontosJoiasImg{
+    width: 760px;
+    height: 400px;
+    background-color: #ccc;
+}
+
+.textDescontoJoias {
+    margin-bottom: 120px;
+}
+.textDescontoJoias h3{
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+}
+.textDescontoJoias p{
+    text-align: center;
+    font-family: 'Pontano Sans', sans-serif;
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.linkDescontoJoias{
+    margin-top: -50px;
+}
+
+.linkDescontoJoias a{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 22px;
+}
+
+.linkDescontoJoias::after{
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #740204;
+    position: relative;
+    left: 115px;
+    bottom: 10px;
+}
+
+/* mais vendido */
+
+.textMaisVendido-bg{
+    margin-top: 60px;
+    
+}
+
+.textMaisVendido h2{
+    margin-left: 80px;
+    font-family: 'Inter', sans-serif;
+}
+
+.textMaisVendido h2::after{
+    content: '';
+    display: block;
+    width: 158px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #740204;
+}
+
+/* sobre */
+
+.sobre-bg{
+    margin-top: 60px;
+}
+
+.sobreImg{
+    width: 100%;
+    height: 400px;
+    background-color: #ccc;
+}
+
+/* experiencia */
+
+.experiencia-bg{
+    margin-top: 60px;
+}
+
+.experienciaTit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.experienciaTit h3{
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.experienciaItens{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+
+
+.consultores, .entrega, .garantia{
+    width: 180px;
+    height: 180px;
+    background-color: #ccc;
+}
+
+#footer-bg{
+    margin-top: 60px;
+    height: 300px;
+    width: 100%;
+    background-color: #ccc;
+}
+
+.textproduct1 p{
+    margin-bottom: 16px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.linkTeste{
+    display: flex;
+    justify-content: center;
+}
+.textproduct1 a{
+    color: white;
+    background-color: #740204;
+    padding: 8px 40px;
+}
+
+.textproduct1 a:hover{
+    color: black;
+    font-weight: 700;
+    border: 2px solid #740204;
+    background-color: transparent;
+}
