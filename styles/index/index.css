@@ -47,13 +47,20 @@
     margin-top: 100px;
     margin-bottom: 80px;
 }
+
+.novidades h3{
+    /* font-family: 'Lobster', sans-serif; */
+    /* font-family: 'Red Hat Display', sans-serif; */
+    font-family: 'Borel', cursive;
+}
 .novidades{
     width: 210px;
     margin: auto;
     text-align: center;
     margin-top: 40px;
-    border: 4px solid #740204;
-    border-radius: 4px;
+    font-size: 22px;
+    /* border: 4px solid #740204;
+    border-radius: 4px; */
 }
 
 
@@ -120,12 +127,10 @@
     margin: auto;
 }
 
-.imgSixthProduct{
-    width: 120px;
-    border-radius: 4px;
+.imgSixthProduct img{
+    width: 194px;
+    border-radius: 2px 1px 0 0;
     margin: auto;
-    position: relative;
-    top: 8px;
 }
 
 
@@ -219,10 +224,10 @@
     margin-top: 60px;
 }
 
-.sobreImg{
+.sobreImg img{
     width: 100%;
-    height: 400px;
-    background-color: #ccc;
+    /* height: 400px;
+    background-color: #ccc; */
 }
 
 /* experiencia */
@@ -272,8 +277,8 @@
     margin-top: -15px;
     font-family: "Pan Display Regular", sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    margin-left: 10px;
+    font-size: 18px;
+    /* text-align: center; */
 }
 
 .textproduct2 p{
@@ -318,3 +323,35 @@
     justify-content: center;
     margin-top: -20px;
 }
+
+#btnMargin {
+    margin-top: -20px;
+}
+
+.priceProducts{
+    display: flex;
+    /* justify-content: center; */
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1px;
+}
+
+.subPrice{
+    font-size: 14px;
+    color: #737373;
+    font-family: 'Inter', sans-serif;
+}
+
+.twoPrice{
+    margin-bottom: -30px;
+    margin-left: 2px;
+}
+
+#priceBaixo{
+    margin-top: 44px;
+}
+/* #btnMarginBaixo{
+    margin-top: 40px;
+} */
