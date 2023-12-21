@@ -8,6 +8,9 @@
 a{
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
 .headerColor{
     background-image: linear-gradient(to right, #7C0204, #450001);
     height: 25px;
