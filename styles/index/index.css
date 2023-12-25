@@ -37,6 +37,7 @@ a{
 .bannerImg{
     display: flex;
     justify-content: center;
+    /* z-index: 1; */
 }
 .bannerImg img{
     width: 1200px;

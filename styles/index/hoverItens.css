@@ -1,0 +1,158 @@
+.backgroundFullWhite{
+    display: none;
+    width: 89%;
+    background-color: #fff;
+    border-radius: 2px;
+    height: 180px;
+    position: absolute;
+    z-index: 999;
+    left: 75px;
+    top: 120px;
+    margin-top: 90px;
+    border-top: 3px solid #740204;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.backgroundFullWhiteAcessorio{
+    display: none;
+    width: 89%;
+    background-color: #fff;
+    border-radius: 2px;
+    height: 180px;
+    position: absolute;
+    z-index: 999;
+    left: 75px;
+    top: 120px;
+    margin-top: 90px;
+    border-top: 3px solid #740204;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.backgroundFullWhiteColares{
+    display: none;
+    width: 89%;
+    background-color: #fff;
+    border-radius: 2px;
+    height: 180px;
+    position: absolute;
+    z-index: 999;
+    left: 75px;
+    top: 120px;
+    margin-top: 90px;
+    border-top: 3px solid #740204;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.backgroundFullWhiteRelogios{
+    display: none;
+    width: 89%;
+    background-color: #fff;
+    border-radius: 2px;
+    height: 180px;
+    position: absolute;
+    z-index: 999;
+    left: 75px;
+    top: 120px;
+    margin-top: 90px;
+    border-top: 3px solid #740204;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+.backgroundFullWhitePulseiras{
+    display: none;
+    width: 89%;
+    background-color: #fff;
+    border-radius: 2px;
+    height: 180px;
+    position: absolute;
+    z-index: 999;
+    left: 75px;
+    top: 120px;
+    margin-top: 90px;
+    border-top: 3px solid #740204;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.backgroundFullWhitePresentes{
+    display: none;
+    width: 89%;
+    background-color: #fff;
+    border-radius: 2px;
+    height: 180px;
+    position: absolute;
+    z-index: 999;
+    left: 75px;
+    top: 120px;
+    margin-top: 90px;
+    border-top: 3px solid #740204;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+
+.primeiroItens, .primeirosItensAcessorio, .ItensColaresVerTodos, .itensRelogiosVerTodos, .itensPulseirasVerTodos{
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+.listaItensHover{
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+
+
+.ulAcessorio li{
+    margin-bottom: 8px;
+}
+
+.ulAcessorio li > a, .ulColares li, .ulRelogios li, .ulPulseiras li{
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 500;
+}
+
+.linkItensColares, .segundoItensColares, .primeiroItensRelogio, .segundoItensRelogios, .terceiroItensRelogios, .quartoItensRelogios, .primieroItemPulseiras, .segundoItemPulseiras{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+
+.lancamentos, .conteudoItemFlexAneis, .aliancasItens, .tornozeleiraItens{
+    margin-bottom: 15px;
+}
+
+.listaLiHover li {
+    margin-bottom: 12px;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 400;
+}
+
+.listaLiHover li::after{
+    content: '';
+    display: inline-block;
+    background-image: url('../../assets/svgs/arrow-right-short.svg');
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    margin-left: 6px;
+}
+
+.borderSide{
+    border-right: 2px solid #000;
+    border-radius: 6px;
+    height: 140px;
+    margin-top: 13px;
+    margin-left: 28px;
+    
+}
+
+
+.flexItensColares, .flexItensRelogios, .flexItensPulseiras{
+    display: flex;
+    align-items: top;
+}
